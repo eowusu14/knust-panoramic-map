@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#map { 
+    height: 99vh;
+    position: relative;
+}
+
+.geolocate {
+    top: 80px;
+    left: 11px;
+}
+
+.zoomtolayer {
+    top: 85px;
+    left: 11px;
+}
+
+.btn- {
+    position: absolute;
+    background-color: white;
+    color: black;
+    border-color: rgba(0,0,0,0.3);   
+    width: 33px;
+    height: 33px;
+    padding: 0px;
+}
+
+/* fix blue buttons on some screens */
+button svg {
+    color: black;
+    fill: black;
+    text-align: center; 
+    size: 100px;
+    /* padding: 2px; */
+    /* background-position: center; */
+}
